@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Padida Ajay | Data Analyst & Computer Science Portfolio</title>
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Portfolio of Padida Ajay, a Computer Science student specializing in Python programming, data analysis and visualization. View projects and skills.">
+    <meta name="keywords" content="Padida Ajay, Python, Data Analysis, Portfolio, Computer Science, Data Visualization, Machine Learning, Data Science">
+    <meta name="author" content="Padida Ajay">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Padida Ajay | Data Analyst & Computer Science Portfolio">
+    <meta property="og:description" content="Computer Science student specializing in Python programming, data analysis and visualization.">
+    <meta property="og:image" content="images/profile_pic.jpg">
+    <meta property="og:url" content="https://padidaajay.com">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Padida Ajay Portfolio">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Padida Ajay | Data Analyst Portfolio">
+    <meta name="twitter:description" content="Computer Science student specializing in Python and data analysis.">
+    <meta name="twitter:image" content="images/profile_pic.jpg">
+    <meta name="twitter:creator" content="@ajaypadida7">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxcXABcXFwAXFxcAFxcXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPj4+AEVFRSFFRUVbRUVFm0VFRZtFRUVbRUVFIVxcXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFRUULRUVFiUVFRf9FRUX/RUVF/0VFRf9FRUX/RUVF/0VFRYlFRUULAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARUVFAEVFRVtFRUX/RUVF/0VFRf9FRUX/RUVF/0VFRf9FRUX/RUVF/0VFRf9FRUVbRUVFAAAAAAAAAAAAAAAAAEVFRQBFRUUhRUVF30VFRf9FRUX/RUVFc0VFRRtFRUUbRUVFc0VFRf9FRUX/RUVF/0VFRd9FRUUhRUVFAAAAAABFRUUARUVFW0VFRf9FRUX/RUVFUEVFRQAAAAAAAAAAAAAAAAAAAAAAAAAAARUVFVFFRUX/RUVF/0VFRVtFRUUARUVFAEVFRYlFRUX/RUVF/0VFRREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEVFRf9FRUX/RUVFiUVFRQBFRUVbRUVF/0VFRf9FRUUhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFRUUhRUVF/0VFRf9FRUVbRUVFm0VFRf9FRUX/RUVFIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARUVFIUVFRf9FRUX/RUVFm0VFRZtFRUX/RUVF/0VFRSEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEVFRSFFRUXvRUVF/0VFRZtFRUVbRUVF/0VFRf9FRUUhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFRUUhRUVF/0VFRf9FRUVbRUVFAEVFRYlFRUX/RUVF/0VFRREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEVFRf9FRUX/RUVFiUVFRQBFRUUARUVFW0VFRf9FRUX/RUVFUEVFRQAAAAAAAAAAAAAAAAAAAAAAAAABAQIAAUVFVU9FRUX/RUVF/0VFRVtFRUUAAAAAAEVFRQBFRUUhRUVF30VFRf9FRUX/RUVFc0VFRRtFRUUcRUVFc0VFRf9FRUX/RUVF/0VFRd9FRUUhRUVFAAAAAAAAAAAARUVFAEVFRVtFRUX/RUVF/0VFRf9FRUX/RUVF/0VFRf9FRUX/RUVF/0VFRf9FRUVbRUVFAAAAAAAAAAAAAAAAAAAAAABFRUUARUVFC0VFRYlFRUX/RUVF/0VFRf9FRUX/RUVF/0VFRf9FRUWJRUVFCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4+PgBFRUUhRUVFW0VFRZtFRUWbRUVFW0VFRSFcXFwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/D8AAPAPAADgBwAAwAMAAIABAACAAQAAAAAAAAAAAAAAAAAAAAAAAAEAAIABAADAAwAA4AcAAPAPAAD8PwAA" />
+    
+    <!-- For apple devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAMAAAAKE/YAAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAADNQTFRFR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHAAAA3B44wwAAAA90Uk5TABAgMEBQYHCAj5+vv8/f74kpIisAAAV+SURBVHja7ZzZlusqDEUZzDzc///aV0kqHceBGIQHp8P+6afkNNprWtgIYsuWLVu2bNmyZcuWn5Kq/9dUSZLmDVWatVf9N/OGYfV3oJNn9ZZv5zup8sfTpk6rpHcPU/VHe8VvJ6c9bQ/VX6OmKd1sD01faOokc7c9lX2TqZPK2x6q7Bs8I62C7aXoCzydlIHtoegLLB2YOSh+PXNQh1k6qH6zqQNHK2HVF9OmdXx7qP1STyela+a3KPh8a1dhMKH8ulCXpTeTBdV3BTqP9fNLlPpcR+spF15A47NyXE75caGm5ELopYFO/FzYfFKoKT4fDnkh9AmhpvQCaGqLoM8JNaXF2DMD/ZZQ56XQlBdAv8XTeSn0jCvfWPKCLdAU5UGfFeokFrqQOZNRH+VpE6Ih9HmOpkjoiJmUmzpFQp+WCJu2TNQRWb/8tEyYIqEjMmFxWiatY6CpjoWewdMBNSF0RCasPs3TFAldRVqaIqEjEkIZBT0nESZR0BGJsIpwtC4IeuGlc2n1cYmQ4qBjEmETEeq6IDBfYD+6VKYJ+qxRVCJM9KLjfx1ZP8zB1ZhFJ3c0qHGU1VJKGeSQqlyfTfRvQ9fzEfbL0OIoi69Cl/w+oAtSRRwJehN6y5btaNmhNrRsaNnQsqHlhUOLnCMfNdXjl3pHfYw6m0NHHeqjQedS6OM7B14SdN8duheugrZVdKcO/WdDHzw6NPTfoY2BV6OxHnR3M3TB10GXdTF0cTd0ye2OMnNBW913i6H7s6H1wQXQ3YAu5dCZF1py37jKANqBYP9s/2W7k9yPBvRgQJeu1xrQ6uCpCgN66jJWGNA43hxdGNDDwY+GVo0Hmgbb3ztKDehsOhj+oB2vNmG1UfbcHj2/dKg8zqfL7e4HlTMRHnpvP9RM+v3B/dCTzTM/Cj4C+jm+Xrm8IDW0EToLoe38/PZOk8dxLIS2SuLZZdBWSTRDXnkLtD0BcHlnEYWW5vYlrO5CaJt4fQm0VRGtvpwXQlt3ebzGCQstj5NaY8YR0PKk4BXQtjH+tc4WQR98h/UKaKsihpzWFkKblfzaG8JZaMthxm1vFkLLw4hQYyyE/pXuRB10ZoU6ogNfAZ35lnYcKYK2jm17bNtCaLOsj8ViGfT7S3shdJFO6KIAGlN78CgC2siiA9vTOl/rP75Bqe1hLjY/WkYc9rkLDMp1kYnQeORBgIyAGTpzzHGZQmgxc8oPdDH083fHANB1O/Tws9A1/iy0yCmAZihCN/QA0HM9WwQ9TOjBh9BNO3Rv1PTJY00e9IIRt0ToEgsa+w2qPoQeGZrHGXx9GXWnfL88aJ6k9gJX22MoYwhtlnjF0G2LRafY0H0LdFENZVDXxHcE/dZQA/SAzkRoHg5rWqHLRugSYUFW2QId3m9b+NMIQK77AHLECLBpgm7aoOsy6LYZehDojuuOzaErgeZ5QJ4+MoXQbTM0T2XthoOgMWXpLajhYwbdtELzrIHOg65DaCwjHg1qkA3dYlV3/dLt0UFVJ/MKt4UO6w+6sAIa+lVXa0F30Cx0fFJ7bkQtd7gUWkbY9KE7xGPTPjRPPu/CzHhsn+t86HiDixbocHOXQ89oj5hQHw9wuPiw+dpcOVbO0MONfzAavCbzIB16xvRrY/Mg1qFnbMRn1PQc0xPZ+lQu9HH/nQ89Y5PZYkHLOfoZ2zybOYt5liPnbN5v7JdD42yEGXtj2DtgzkaWGcvJDN2LHT1n41SQpGFCy/YeQi/Z9TZjA6ZZlzKhF+2rm7HF1pjQsibmmPWPKVSEniEzNnWXe6lDQsunG+3MmhW2BRTuaBM6vAeYXh9pAjLbAwIv4X69kQDo1w9X2rJly5YtW7Zs2bLljf8A+GQioK2ZEEoAAAAASUVORK5CYII=" />
+    <meta name="msapplication-TileColor" content="#4361ee">
+    <meta name="theme-color" content="#4361ee">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animations -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader removed -->
+
+    <!-- Interactive Background Canvas -->
+    <canvas id="interactiveBackground"></canvas>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <a href="#home" class="logo">
+                <span>Ajay</span>Portfolio<span class="logo-dot">.</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active-nav"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#skills"><i class="fas fa-laptop-code"></i> Skills</a></li>
+                    <li><a href="#achievements"><i class="fas fa-trophy"></i> Achievements</a></li>
+                    <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                    <li><a href="#blog"><i class="fas fa-feather-alt"></i> Blog</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <button id="themeToggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Smart Navigation Icons -->
+    <!--
+    <div class="smart-nav-container">
+        <div class="smart-nav">
+            <a href="#about" class="smart-nav-item" data-tooltip="About Me">
+                <div class="smart-nav-icon">
+                    <i class="fas fa-user"></i>
+                </div>
+                <span class="smart-nav-label">About</span>
+            </a>
+            <a href="#skills" class="smart-nav-item" data-tooltip="My Skills">
+                <div class="smart-nav-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <span class="smart-nav-label">Skills</span>
+            </a>
+            <a href="#achievements" class="smart-nav-item" data-tooltip="Achievements">
+                <div class="smart-nav-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <span class="smart-nav-label">Achievements</span>
+            </a>
+            <a href="#projects" class="smart-nav-item" data-tooltip="Projects">
+                <div class="smart-nav-icon">
+                    <i class="fas fa-project-diagram"></i>
+                </div>
+                <span class="smart-nav-label">Projects</span>
+            </a>
+            <a href="#blog" class="smart-nav-item" data-tooltip="Blog">
+                <div class="smart-nav-icon">
+                    <i class="fas fa-feather-alt"></i>
+                </div>
+                <span class="smart-nav-label">Blog</span>
+            </a>
+            <a href="#contact" class="smart-nav-item" data-tooltip="Contact Me">
+                <div class="smart-nav-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <span class="smart-nav-label">Contact</span>
+            </a>
+        </div>
+    </div>
+    -->
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg rellax" data-rellax-speed="-4"></div>
+        <!-- Particles.js Background -->
+        <div id="particles-js"></div>
+        <!-- Animated Coding Screen Icon -->
+        <div class="coding-icon-container">
+            <div class="coding-icon">
+                <div class="coding-screen">
+                    <div class="coding-line line-1"></div>
+                    <div class="coding-line line-2"></div>
+                    <div class="coding-line line-3"></div>
+                    <div class="coding-line line-4"></div>
+                    <div class="coding-line line-5"></div>
+                    <div class="coding-cursor"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Floating icons in hero section -->
+        <i class="floating-icon icon-1 float-1 fas fa-code"></i>
+        <i class="floating-icon icon-2 float-2 fas fa-chart-bar"></i>
+        <i class="floating-icon icon-3 float-3 fas fa-database"></i>
+        <div class="container">
+            <div class="hero-content">
+                <div class="emoji-hello rellax" data-rellax-speed="1">👋</div>
+                <p class="hero-tagline rellax" data-rellax-speed="-1">Turning Data Into Insights</p>
+                <h1 class="reveal-text rellax" data-rellax-speed="-0.5">Hi, I'm <span class="highlight" id="myname">Padida Ajay</span></h1>
+                <p class="subtitle reveal-text rellax" data-rellax-speed="0.5">Computer Science Student <span class="emoji">💻</span></p>
+                <p class="description reveal-text rellax" data-rellax-speed="0.3">I specialize in Python programming and data analysis, creating meaningful visualizations and insights from complex datasets. Let's collaborate and build something amazing together.</p>
+                <div class="contact-info-small reveal-text">
+                    <a href="mailto:ajaypadida7@gmail.com"><i class="fas fa-envelope"></i> ajaypadida7@gmail.com</a>
+                    <a href="tel:+918919832684"><i class="fas fa-phone"></i> 8919832684</a>
+                </div>
+                <div class="cta-buttons reveal-text">
+                    <a href="#projects" class="btn primary"><i class="fas fa-code"></i> View My Work</a>
+                    <a href="#contact" class="btn secondary"><i class="fas fa-paper-plane"></i> Contact Me</a>
+                    <a href="#skills" class="btn cta"><i class="fas fa-book"></i> Start Exploring</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+                <span class="arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Quote of the Day -->
+    <div class="quote-of-day">
+        <p class="quote-text">"The only way to do great work is to love what you do."</p>
+        <p class="quote-author">— Steve Jobs</p>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about parallax-section">
+        <div class="parallax-bg rellax" data-rellax-speed="-3" data-rellax-percentage="0.5"></div>
+        <!-- Floating icon in about section -->
+        <i class="floating-icon icon-1 float-3 fas fa-user-graduate"></i>
+        <div class="container">
+            <h2 class="section-title rellax" data-rellax-speed="0.8">About <span class="highlight">Me</span></h2>
+            <p class="section-subtitle rellax" data-rellax-speed="0.5">Get to know me better</p>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right" data-aos-delay="200">
+                    <div class="profile-container">
+                        <div class="profile-image js-tilt" data-tilt data-tilt-max="5" data-tilt-scale="1.02" data-tilt-perspective="1000">
+                            <img src="images/profile_pic.jpg" alt="Padida Ajay" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left" data-aos-delay="300">
+                    <div class="tab-container">
+                        <div class="tabs">
+                            <button class="tab active" data-tab="tab-about"><i class="fas fa-user"></i> About</button>
+                            <button class="tab" data-tab="tab-education"><i class="fas fa-graduation-cap"></i> Education</button>
+                            <button class="tab" data-tab="tab-experience"><i class="fas fa-briefcase"></i> Experience</button>
+                            <button class="tab" data-tab="tab-soft-skills"><i class="fas fa-heart"></i> Soft Skills</button>
+                        </div>
+                        
+                        <div class="tab-content active" id="tab-about">
+                            <p class="lead-text rellax" data-rellax-speed="1">Hi there! I'm <strong>Padida Ajay</strong>, a Computer Science student passionate about data science, machine learning, and software development.</p>
+                            
+                            <div class="profile-objective">
+                                <h4 class="text-gradient"><i class="fas fa-bullseye"></i> Professional Objective</h4>
+                                <p>I'm searching for a challenging position where I can learn new skills, expand my knowledge base, and advance the business. Looking for a position where I can use my skills to promote innovation and aid in the general growth of the firm.</p>
+                            </div>
+                            
+                            <p>My journey in technology started with a curiosity about how data can be leveraged to solve complex problems and create meaningful insights.</p>
+                            
+                            <h4 class="text-gradient"><i class="fas fa-globe"></i> Languages & Interests</h4>
+                            <ul class="info-list">
+                                <li><i class="fas fa-language"></i> <strong>Languages:</strong> Telugu, English</li>
+                                <li><i class="fas fa-plane"></i> <strong>Interests:</strong> Travelling 🌍</li>
+                            </ul>
+                            
+                            <ul class="info-list">
+                                <li><i class="fas fa-user"></i> <strong class="text-bold">Name:</strong> Padida Ajay</li>
+                                <li><i class="fas fa-envelope"></i> <strong class="text-bold">Email:</strong> ajaypadida7@gmail.com</li>
+                                <li><i class="fas fa-phone"></i> <strong class="text-bold">Phone:</strong> 8919832684</li>
+                                <li><i class="fas fa-award"></i> <strong class="text-bold">Field of Study:</strong> Computer Science</li>
+                            </ul>
+                            
+                            <a href="#" class="btn download-cv glow-effect"><i class="fas fa-download"></i> Download CV</a>
+                        </div>
+                        
+                        <div class="tab-content" id="tab-education">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="timeline-date">2022 - 2026</span>
+                                    <h4>Bachelor of Technology in Computer Science Engineering <span class="emoji">🎓</span></h4>
+                                    <p class="timeline-place">Teegala Krishna Reddy College, Hyderabad</p>
+                                    <p>Currently pursuing a B.Tech degree in Computer Science with a focus on programming, data analysis, and machine learning technologies.</p>
+                                </div>
+                                
+                                <div class="timeline-item">
+                                    <span class="timeline-date">2020 - 2022</span>
+                                    <h4>Intermediate <span class="emoji">📚</span></h4>
+                                    <p class="timeline-place">Sri Chaithanya Junior College</p>
+                                    <p>Completed intermediate education with focus on science and mathematics.</p>
+                                </div>
+                                
+                                <div class="timeline-item">
+                                    <span class="timeline-date">2019 - 2020</span>
+                                    <h4>SSC <span class="emoji">🏫</span></h4>
+                                    <p class="timeline-place">Brooklyn Grammar High School, Metpally</p>
+                                    <p>Completed secondary school education with strong academic performance.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-content" id="tab-experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="timeline-date">May 2025 - June 2025</span>
+                                    <h4>Software Developer Internship <span class="emoji">🚀</span></h4>
+                                    <p class="timeline-place"><i class="fas fa-building"></i> Micro IT</p>
+                                    <div class="internship-details">
+                                        <div class="internship-highlight">
+                                            <i class="fas fa-star"></i>
+                                            <p>Selected for a 1-month internship as a Software Developer in Web Development</p>
+                                        </div>
+                                        <div class="internship-highlight">
+                                            <i class="fas fa-bullseye"></i>
+                                            <p>Opportunity to work on real-world projects using modern web technologies</p>
+                                        </div>
+                                        <div class="internship-highlight">
+                                            <i class="fas fa-coins"></i>
+                                            <p>Potential for post-internship opportunity with stipend up to ₹15000</p>
+                                        </div>
+                                        <div class="internship-highlight">
+                                            <i class="fas fa-laptop-code"></i>
+                                            <p>Will be developing two projects using preferred programming languages</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="timeline-item">
+                                    <span class="timeline-date">2024</span>
+                                    <h4>Data Science Intern <span class="emoji">📊</span></h4>
+                                    <p class="timeline-place"><i class="fas fa-building"></i> OASIS INFOBYTE</p>
+                                    <div class="internship-details">
+                                        <div class="project-card mini">
+                                            <h5><i class="fas fa-envelope-open-text"></i> Email Spam Detection</h5>
+                                            <p>Preprocessed text data using techniques like stemming and created a Bag of Words model. Trained a Logistic Regression model, achieving 97.76% accuracy in detecting spam emails.</p>
+                                        </div>
+                                        <div class="project-card mini">
+                                            <h5><i class="fas fa-chart-line"></i> Unemployment Analysis</h5>
+                                            <p>Analyzed unemployment data using descriptive statistics and visualizations. Visualized lockdown impact on unemployment rates by region.</p>
+                                        </div>
+                                        <div class="project-card mini">
+                                            <h5><i class="fas fa-leaf"></i> Iris Flower Classification</h5>
+                                            <p>Explored Iris dataset with statistics, histograms, density plots, and box plots. Achieved high accuracy with K-Nearest Neighbors and Decision Tree on the Iris dataset.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="timeline-item">
+                                    <span class="timeline-date">2023</span>
+                                    <h4>COVID-19 Data Analysis Project <span class="emoji">📊</span></h4>
+                                    <p class="timeline-place">Academic Project</p>
+                                    <p>Analyzed COVID-19 dataset using Python and data visualization libraries to identify trends and patterns. Created interactive dashboards to present findings in an accessible format.</p>
+                                </div>
+                                
+                                <div class="timeline-item">
+                                    <span class="timeline-date">2022 - Present</span>
+                                    <h4>Computer Science Student <span class="emoji">💻</span></h4>
+                                    <p class="timeline-place">University</p>
+                                    <p>Actively participating in programming competitions, collaborative projects, and continuous learning of new technologies and frameworks.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-content" id="tab-soft-skills">
+                            <p>Beyond technical skills, I've developed a strong set of soft skills that enable me to work effectively in teams, adapt to changing circumstances, and deliver quality results.</p>
+                            
+                            <div class="skills-grid">
+                                <div class="soft-skill-card">
+                                    <div class="skill-icon"><i class="fas fa-sync-alt"></i></div>
+                                    <h4>Adaptability <span class="emoji">🔄</span></h4>
+                                    <p>Quickly adjust to new challenges and environments</p>
+                                </div>
+                                
+                                <div class="soft-skill-card">
+                                    <div class="skill-icon"><i class="fas fa-book-reader"></i></div>
+                                    <h4>Eager to Learn <span class="emoji">📚</span></h4>
+                                    <p>Continuously seeking new knowledge and skills</p>
+                                </div>
+                                
+                                <div class="soft-skill-card">
+                                    <div class="skill-icon"><i class="fas fa-clock"></i></div>
+                                    <h4>Time Management <span class="emoji">⏰</span></h4>
+                                    <p>Efficiently organizing tasks and meeting deadlines</p>
+                                </div>
+                                
+                                <div class="soft-skill-card">
+                                    <div class="skill-icon"><i class="fas fa-users"></i></div>
+                                    <h4>Teamwork <span class="emoji">🤝</span></h4>
+                                    <p>Collaborating effectively with diverse team members</p>
+                                </div>
+                                
+                                <div class="soft-skill-card">
+                                    <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                                    <h4>Communication <span class="emoji">💬</span></h4>
+                                    <p>Clearly expressing ideas in written and verbal forms</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills parallax-section">
+        <div class="parallax-bg rellax" data-rellax-speed="-2" data-rellax-percentage="0.5"></div>
+        <!-- Floating icons in skills section -->
+        <i class="floating-icon icon-1 float-2 fas fa-brain"></i>
+        <i class="floating-icon icon-2 float-1 fas fa-laptop-code"></i>
+        <div class="container">
+            <h2 class="section-title rellax" data-rellax-speed="0.8">My <span class="highlight">Skills</span></h2>
+            <p class="section-subtitle rellax" data-rellax-speed="0.5">What I bring to the table</p>
+            
+            <!-- Skills Visualization -->
+            <div class="skills-visualization rellax" data-rellax-speed="0.3" data-aos="fade-up" data-aos-delay="150">
+                <div class="chart-container">
+                    <canvas id="skillsChart"></canvas>
+                    <div class="chart-tooltip">
+                        <span>Hover over chart elements to see details</span>
+                    </div>
+                </div>
+                <div class="chart-legend">
+                    <h3>Skills Breakdown</h3>
+                    <p>A visual representation of my proficiency in various technical and soft skills</p>
+                    <div class="chart-toggle">
+                        <button id="radarChartBtn" class="chart-toggle-btn active">Radar View</button>
+                        <button id="barChartBtn" class="chart-toggle-btn">Bar View</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tech Logos Section -->
+            <h3 class="tech-logos-title" data-aos="fade-up">Technologies I Work With</h3>
+            <div class="tech-logos-container glassmorphism" data-aos="fade-up" data-aos-delay="100">
+                <div class="tech-logo-wrapper">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="tech-logo" alt="Python">
+                    <span class="tech-logo-name">Python</span>
+                </div>
+                <div class="tech-logo-wrapper">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" class="tech-logo" alt="NumPy">
+                    <span class="tech-logo-name">NumPy</span>
+                </div>
+                <div class="tech-logo-wrapper">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" class="tech-logo" alt="Pandas">
+                    <span class="tech-logo-name">Pandas</span>
+                </div>
+                <div class="tech-logo-wrapper">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" class="tech-logo" alt="TensorFlow">
+                    <span class="tech-logo-name">TensorFlow</span>
+                </div>
+                <div class="tech-logo-wrapper">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="tech-logo" alt="HTML5">
+                    <span class="tech-logo-name">HTML5</span>
+                </div>
+                <div class="tech-logo-wrapper">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="tech-logo" alt="CSS3">
+                    <span class="tech-logo-name">CSS3</span>
+                </div>
+                <div class="tech-logo-wrapper">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="tech-logo" alt="JavaScript">
+                    <span class="tech-logo-name">JavaScript</span>
+                </div>
+                <div class="tech-logo-wrapper">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="tech-logo" alt="MySQL">
+                    <span class="tech-logo-name">MySQL</span>
+                </div>
+                <div class="tech-logo-wrapper">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="tech-logo" alt="Git">
+                    <span class="tech-logo-name">Git</span>
+                </div>
+                <div class="tech-logo-wrapper">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" class="tech-logo" alt="VS Code">
+                    <span class="tech-logo-name">VS Code</span>
+                </div>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skill-card glassmorphism" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fab fa-python"></i>
+                    <h3>Python Programming</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Python <span class="emoji">🐍</span></span>
+                        <span>OOP</span>
+                        <span>Data Processing</span>
+                    </div>
+                </div>
+                <div class="skill-card glassmorphism" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Data Analysis & Visualization</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Pandas <span class="emoji">🐼</span></span>
+                        <span>NumPy</span>
+                        <span>Matplotlib <span class="emoji">📊</span></span>
+                        <span>Seaborn</span>
+                    </div>
+                </div>
+                <div class="skill-card glassmorphism" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fas fa-brain"></i>
+                    <h3>Machine Learning</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span>TensorFlow <span class="emoji">🧠</span></span>
+                        <span>Keras</span>
+                        <span>Scikit-Learn</span>
+                    </div>
+                </div>
+                <div class="skill-card glassmorphism" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fas fa-database"></i>
+                    <h3>Database Management</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span>SQL <span class="emoji">🗃️</span></span>
+                        <span>Data Modeling</span>
+                    </div>
+                </div>
+                <div class="skill-card glassmorphism" data-aos="zoom-in" data-aos-delay="500">
+                    <i class="fab fa-html5"></i>
+                    <h3>Web Development</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span>HTML <span class="emoji">🌐</span></span>
+                        <span>CSS <span class="emoji">🎨</span></span>
+                    </div>
+                </div>
+                <div class="skill-card glassmorphism" data-aos="zoom-in" data-aos-delay="600">
+                    <i class="fas fa-users"></i>
+                    <h3>Soft Skills</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Adaptability</span>
+                        <span>Teamwork <span class="emoji">🤝</span></span>
+                        <span>Communication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements parallax-section">
+        <div class="parallax-bg rellax" data-rellax-speed="-2.2" data-rellax-percentage="0.5"></div>
+        <!-- Floating icons in achievements section -->
+        <i class="floating-icon icon-1 float-2 fas fa-award"></i>
+        <i class="floating-icon icon-2 float-1 fas fa-certificate"></i>
+        <div class="container">
+            <h2 class="section-title rellax" data-rellax-speed="0.8">My <span class="highlight">Achievements</span> <span class="emoji">🏆</span></h2>
+            <p class="section-subtitle rellax" data-rellax-speed="0.5">Milestones in my professional journey</p>
+            
+            <!-- Animated Achievement Timeline -->
+            <div class="timeline-container animated-timeline timeline-animated" data-aos="fade-up">
+                <div class="timeline-block" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-icon-container">
+                        <div class="timeline-icon">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-content glassmorphism">
+                        <h3 class="timeline-title">AWS Skill Builder Course Completion</h3>
+                        <span class="timeline-date"><i class="fas fa-calendar-alt"></i> May 2024</span>
+                        <div class="timeline-text">
+                            <p>Successfully completed the AWS Skill Builder certification program, gaining expertise in cloud computing services and solutions. Learned essential AWS services, architecture best practices, and cloud deployment strategies.</p>
+                            <div class="certificate-preview">
+                                <img src="images/aws-certificate.jpg" alt="AWS Certificate" class="certificate-image">
+                                <div class="certificate-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="timeline-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="timeline-block" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-icon-container">
+                        <div class="timeline-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-content glassmorphism">
+                        <h3 class="timeline-title">Data Science Internship - OASIS INFOBYTE</h3>
+                        <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2024</span>
+                        <div class="timeline-text">
+                            <p>Completed a data science internship at OASIS INFOBYTE, working on three significant projects: Email Spam Detection (97.76% accuracy), Unemployment Analysis, and Iris Flower Classification.</p>
+                            <div class="achievement-badges">
+                                <div class="achievement-badge">
+                                    <i class="fas fa-envelope-open-text"></i>
+                                    <span>Spam Detection</span>
+                                </div>
+                                <div class="achievement-badge">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Data Analysis</span>
+                                </div>
+                                <div class="achievement-badge">
+                                    <i class="fas fa-leaf"></i>
+                                    <span>Classification</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="timeline-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="timeline-block" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-icon-container">
+                        <div class="timeline-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-content glassmorphism">
+                        <h3 class="timeline-title">Software Developer Internship - Micro IT</h3>
+                        <span class="timeline-date"><i class="fas fa-calendar-alt"></i> May-June 2025</span>
+                        <div class="timeline-text">
+                            <p>Selected for a one-month internship focused on web development at Micro IT. Will be working on real-world projects using modern web technologies and developing two projects using preferred programming languages.</p>
+                        </div>
+                        <a href="#" class="timeline-link">View Details <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="timeline-block" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-icon-container">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-content glassmorphism">
+                        <h3 class="timeline-title">B.Tech in Computer Science Engineering</h3>
+                        <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2022-2026</span>
+                        <div class="timeline-text">
+                            <p>Pursuing a Bachelor's degree in Computer Science at Teegala Krishna Reddy College, Hyderabad, with focus on programming, data science, and machine learning technologies.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-navigation">
+                    <button class="timeline-nav-button prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+                    <button class="timeline-nav-button next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects parallax-section">
+        <div class="parallax-bg rellax" data-rellax-speed="-2.5" data-rellax-percentage="0.5"></div>
+        <!-- Floating icon in projects section -->
+        <i class="floating-icon icon-1 float-1 fas fa-lightbulb"></i>
+        <div class="container">
+            <h2 class="section-title rellax" data-rellax-speed="0.8">My <span class="highlight">Projects</span></h2>
+            <p class="section-subtitle rellax" data-rellax-speed="0.5">Some of my recent work</p>
+            <div class="project-filters" data-aos="fade-up" data-aos-delay="200">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+                <button class="filter-btn" data-filter="data">Data</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card glassmorphism" data-category="data" data-aos="flip-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/350x200" alt="COVID-19 Data Analysis">
+                        <div class="project-overlay">
+                            <div class="project-emoji">📊</div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="text-gradient">COVID-19 Data Analysis</h3>
+                        <p>Developed a <span class="highlight-text">COVID-19 data analysis</span> project using Python, leveraging data visualization and statistical techniques to explore trends, case distributions, and impacts. The project provided insights into infection rates, recoveries, and fatalities using real-world datasets.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>Matplotlib</span>
+                            <span>Seaborn</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">View Project <i class="fas fa-eye"></i></a>
+                            <a href="#" class="btn small secondary">Source Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glassmorphism" data-category="data" data-aos="flip-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/350x200" alt="Email Spam Detection">
+                        <div class="project-overlay">
+                            <div class="project-emoji">📧</div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="text-gradient">Email Spam Detection</h3>
+                        <p>Preprocessed text data using techniques like stemming and created a Bag of Words model. Trained a Logistic Regression model, achieving 97.76% accuracy in detecting spam emails.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>NLP</span>
+                            <span>Logistic Regression</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">View Project <i class="fas fa-eye"></i></a>
+                            <a href="#" class="btn small secondary">Source Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glassmorphism" data-category="data" data-aos="flip-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/350x200" alt="Unemployment Analysis">
+                        <div class="project-overlay">
+                            <div class="project-emoji">📉</div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="text-gradient">Unemployment Analysis</h3>
+                        <p>Analyzed unemployment data using descriptive statistics and visualizations. Visualized lockdown impact on unemployment rates by region and created insightful data presentations.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Data Analysis</span>
+                            <span>Visualization</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">View Project <i class="fas fa-eye"></i></a>
+                            <a href="#" class="btn small secondary">Source Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glassmorphism" data-category="data" data-aos="flip-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/350x200" alt="Iris Flower Classification">
+                        <div class="project-overlay">
+                            <div class="project-emoji">🌸</div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="text-gradient">Iris Flower Classification</h3>
+                        <p>Explored Iris dataset with statistics, histograms, density plots, and box plots. Achieved high accuracy with K-Nearest Neighbors and Decision Tree on the Iris dataset.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>KNN</span>
+                            <span>Decision Trees</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">View Project <i class="fas fa-eye"></i></a>
+                            <a href="#" class="btn small secondary">Source Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glassmorphism" data-category="web" data-aos="flip-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/350x200" alt="E-commerce Website">
+                        <div class="project-overlay">
+                            <div class="project-emoji">🛒</div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Website</h3>
+                        <p>A full-featured online store with shopping cart and payment integration.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small">View Project <i class="fas fa-eye"></i></a>
+                            <a href="#" class="btn small secondary">Source Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog parallax-section">
+        <div class="parallax-bg rellax" data-rellax-speed="-2" data-rellax-percentage="0.5"></div>
+        <div class="container">
+            <h2 class="section-title rellax" data-rellax-speed="0.8">My <span class="highlight">Blog</span> <span class="emoji">✍️</span></h2>
+            <p class="section-subtitle rellax" data-rellax-speed="0.5">Thoughts, tutorials, and insights from my journey in technology</p>
+            
+            <div class="blog-filters" data-aos="fade-up" data-aos-delay="150">
+                <button class="filter-btn active" data-blog-filter="all">All Posts</button>
+                <button class="filter-btn" data-blog-filter="tutorial">Tutorials</button>
+                <button class="filter-btn" data-blog-filter="tech">Technology</button>
+                <button class="filter-btn" data-blog-filter="data">Data Science</button>
+            </div>
+            
+            <div class="blog-grid">
+                <div class="blog-card glassmorphism" data-blog-category="tutorial" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Python Data Analysis Tutorial">
+                        <div class="blog-date">
+                            <span class="day">15</span>
+                            <span class="month">May</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-tags">
+                            <span>Tutorial</span>
+                            <span>Python</span>
+                        </div>
+                        <h3>Getting Started with Data Analysis in Python</h3>
+                        <p>Learn the fundamentals of data analysis using Python's powerful libraries like Pandas and NumPy.</p>
+                        <a href="blog/python-data-analysis.html" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="blog-card glassmorphism" data-blog-category="tech" data-aos="fade-up" data-aos-delay="300">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Web Development Trends">
+                        <div class="blog-date">
+                            <span class="day">03</span>
+                            <span class="month">Apr</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-tags">
+                            <span>Technology</span>
+                            <span>Web Dev</span>
+                        </div>
+                        <h3>Top Web Development Trends to Watch in 2023</h3>
+                        <p>Exploring the latest technologies and frameworks that are reshaping the web development landscape.</p>
+                        <a href="blog/web-dev-trends.html" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="blog-card glassmorphism" data-blog-category="data" data-aos="fade-up" data-aos-delay="400">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Machine Learning Projects">
+                        <div class="blog-date">
+                            <span class="day">22</span>
+                            <span class="month">Mar</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-tags">
+                            <span>Data Science</span>
+                            <span>ML</span>
+                        </div>
+                        <h3>5 Machine Learning Projects for Your Portfolio</h3>
+                        <p>A guide to building impressive machine learning projects that will help you stand out to employers.</p>
+                        <a href="blog/ml-portfolio-projects.html" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="blog-pagination" data-aos="fade-up" data-aos-delay="100">
+                <button class="pagination-btn active">1</button>
+                <button class="pagination-btn">2</button>
+                <button class="pagination-btn">3</button>
+                <button class="pagination-btn next"><i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact parallax-section">
+        <div class="parallax-bg rellax" data-rellax-speed="-1.5" data-rellax-percentage="0.5"></div>
+        <div class="container">
+            <h2 class="section-title rellax" data-rellax-speed="0.8">Get In <span class="highlight">Touch</span> <span class="emoji">📬</span></h2>
+            <p class="section-subtitle rellax" data-rellax-speed="0.5">Feel free to reach out to me for collaboration or any queries</p>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <p>Feel free to reach out to me for any inquiries or opportunities. I'm currently available for internships, collaborative projects, or discussions about data analysis and development.</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>ajaypadida7@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>8919832684</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>India <span class="emoji">🇮🇳</span></p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/padida-ajay/" class="social-icon linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/ajaypadida7" class="social-icon github" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    
+                    <a href="https://www.linkedin.com/in/padida-ajay/messaging/" class="btn linkedin-message" id="linkedin-message-btn">
+                        <i class="fab fa-linkedin"></i> Send LinkedIn Message
+                    </a>
+                </div>
+                <div class="contact-form glassmorphism" data-aos="fade-left" data-aos-delay="300">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name <span class="required">*</span></label>
+                            <input type="text" id="name" class="glassmorphism" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" class="glassmorphism" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="glassmorphism" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message <span class="required">*</span></label>
+                            <textarea id="message" class="glassmorphism" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <canvas id="footerStarfield"></canvas>
+        <div class="container">
+            <a href="#home" class="footer-logo" data-aos="zoom-in">
+                <span>Ajay</span>Portfolio<span class="logo-dot">.</span>
+            </a>
+            
+            <p class="footer-text" data-aos="fade-up" data-aos-delay="100">
+                Thank you for visiting my portfolio website. Feel free to explore my projects and get in touch
+                if you have any questions or would like to collaborate on a project.
+            </p>
+            
+            <div class="footer-info-section" data-aos="fade-up" data-aos-delay="200">
+                <div class="info-block">
+                    <h4 class="info-title">
+                        <i class="fas fa-language"></i> Languages
+                    </h4>
+                    <p class="info-content">
+                        Telugu, English <span class="emoji">🗣️</span>
+                    </p>
+                </div>
+                
+                <div class="info-block">
+                    <h4 class="info-title">
+                        <i class="fas fa-plane"></i> Interests
+                    </h4>
+                    <p class="info-content">
+                        Travelling <span class="emoji">✈️</span>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer-nav" data-aos="fade-up" data-aos-delay="300">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+            <div class="social-links" data-aos="fade-up" data-aos-delay="350" style="margin-top: 1.5rem; justify-content: center;">
+                <a href="https://www.linkedin.com/in/padida-ajay/" class="social-icon linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/ajaypadida7" class="social-icon github" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            
+            <p data-aos="fade-up" data-aos-delay="400">&copy; 2023 Padida Ajay. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- AjayBot Assistant -->
+    <div class="ajaybot-container">
+        <div class="ajaybot-icon" id="ajaybotIcon">
+            <i class="fas fa-robot"></i>
+        </div>
+        <div class="ajaybot-chat">
+            <div class="ajaybot-header">
+                <div class="ajaybot-avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="ajaybot-info">
+                    <h4>AjayBot</h4>
+                    <p>Personal AI Assistant</p>
+                </div>
+                <button class="ajaybot-close" id="ajaybotClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="ajaybot-messages" id="ajaybotMessages">
+                <div class="message bot">
+                    <p>Hi, I'm AjayBot. Ask me anything about Ajay!</p>
+                </div>
+                <div class="message bot">
+                    <p>Try asking about his skills, projects, or background.</p>
+                </div>
+            </div>
+            <div class="ajaybot-typing hidden">
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+            </div>
+            <div class="ajaybot-input">
+                <input type="text" id="ajaybotInput" placeholder="Type your question here..." autocomplete="off">
+                <button class="ajaybot-send" id="ajaybotSend">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="Project Preview">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalTitle"></h2>
+                    <div id="modalTags" class="modal-tags"></div>
+                    <div id="modalDescription" class="modal-description"></div>
+                    <div class="modal-details">
+                        <div class="modal-detail">
+                            <h4><i class="fas fa-tasks"></i> Features</h4>
+                            <ul id="modalFeatures"></ul>
+                        </div>
+                        <div class="modal-detail">
+                            <h4><i class="fas fa-code"></i> Technologies</h4>
+                            <ul id="modalTech"></ul>
+                        </div>
+                    </div>
+                    <div class="modal-links">
+                        <a id="modalDemoLink" href="#" target="_blank" class="btn primary">View Demo <i class="fas fa-external-link-alt"></i></a>
+                        <a id="modalCodeLink" href="#" target="_blank" class="btn secondary">Source Code <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
